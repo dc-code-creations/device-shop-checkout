@@ -1,0 +1,4 @@
+# git ignore file
+
+dccl--html-css-device-eshop-checkout*
+.DS_Store
