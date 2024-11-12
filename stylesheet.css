@@ -1,0 +1,13 @@
+/* IMPORTS */
+
+.container {
+    /* grid-template-areas: ; */
+}
+
+.cart {
+    display: flex;
+    flex-direction: row;
+}
+
+.summary {
+}
