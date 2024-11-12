@@ -4,6 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Device Shop Checkout</title>
 
+    <!-- viewport (don't think this was an issue, but just in case; would come in handy for media queries) -->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
     <!-- Stylesheet -->
      <link rel="stylesheet" href="stylesheet.css">
 </head>
@@ -17,21 +20,26 @@
                 <div class="summary">
                     <div class="items">
                         <div class="item">
-                            <img src="images/Gold.png" alt="gold-iphnoe">
-                            <div>
-                                <div class="item-info">
+                            <!-- not sure if the item wrapper will work due to flex not seeing it anymore, so the text overlaps the image -->
+                            <!-- <div class="img-wrapper"> -->
+                                <img src="images/Gold.png" alt="gold-iphone">
+                            <!-- </div> -->
+                            <!-- <div class="item-info-wrapper"> -->
+                                <div class="item-description-wrapper">
                                     <div class="item-name">iPhone 12 Pro</div>
-                                    <div class="item-price">$999.00</div>
-                                </div>
-                                <div class="item-color">Golden</div>
-                                <div>
+                                    <div class="item-color">Golden</div>
                                     <div class="item-count">x1</div>
+                                </div>
+                                <div class="price-delete-wrapper">
+                                    <div class="item-price">$999.00</div>
                                     <div class="x-icon">X</div>
                                 </div>
-                            </div>
+                            <!-- </div> -->
                         </div>
                         <div class="item">
-                            <img src="images/Blue@2x.png" alt="blue-apple-watch">
+                            <!-- <div class="img-wrapper"> -->
+                                <img src="images/Blue@2x.png" alt="blue-apple-watch">
+                            <!-- </div> -->
                             <div>
                                 <div class="item-info">
                                     <div class="item-name">Apple Watch</div>
@@ -45,7 +53,9 @@
                             </div>
                         </div>
                         <div class="item">
-                            <img src="images/iMac=Front 1.png" alt="green-imac">
+                            <!-- <div class="img-wrapper"> -->
+                                <img src="images/iMac=Front 1.png" alt="green-imac">
+                            <!-- </div> -->
                             <div>
                                 <div class="item-info">
                                     <div class="item-name">iMac</div>
