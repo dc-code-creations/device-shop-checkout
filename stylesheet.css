@@ -128,7 +128,7 @@ body {
 }
 
 .item-color {
-    flex: 8;
+    flex: 6;
 }
 
 .item-count {
@@ -140,6 +140,6 @@ body {
     padding: 0 5px;
     display: flex;
     flex-direction: column;
-    /* justify-content: flex-end; */
     align-items: flex-end;
+    justify-content: space-between;
 }
