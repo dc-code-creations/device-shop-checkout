@@ -120,8 +120,20 @@ body {
 }
 
 .item-description-wrapper {
+    display: flex;
+    flex-direction: column;
+    /* height: 100%; */
     padding: 0 15px;
     flex: 2
+}
+
+.item-color {
+    flex: 8;
+}
+
+.item-count {
+    flex: 2;
+    align-self: flex-start;
 }
 
 .price-delete-wrapper {
