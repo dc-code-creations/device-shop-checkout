@@ -13,6 +13,31 @@ body {
             "summary contact"; */
 }
 
+hr {
+    background-color: #D2D5DA;
+    border: none;
+    height: 1px;
+}
+
+input {
+    border: 1px solid #D2D5DA;
+    padding: 15px;
+    border-radius: 7px;
+    width: 100%;
+    margin-right: 5px;
+}
+
+button {
+    border: 1px solid #D2D5DA;
+    padding: 15px;
+    background-color: #1D1D1F;
+    color: #FFFFFF;
+    border-radius: 7px;
+    white-space: nowrap;
+}
+
+/* HEADER / TOP NAV */
+
 .top-nav {
     /* defining the space the nav itself takes up */
     grid-column: 1 / 7;
@@ -27,6 +52,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .nav-item {
     padding: 10px;
 }
@@ -40,6 +66,8 @@ body {
     /* there is a difference between using px and percentages (https://www.reddit.com/r/css/comments/2ngnz7/borderradius_or_px/) */
     border-radius: 54px;
 }
+
+/* CART SECTION */
 
 .cart {
     /* defining the space the cart itself takes up */
@@ -58,7 +86,7 @@ body {
 
 .summary {
     flex: 1;
-    background-color: #D2D5DA;
+    background-color: #E5E7EB;
     padding: 10px;
 
     /* have to give same border radius as container in order to keep padding from 
@@ -77,6 +105,8 @@ body {
     border-radius: 0 15px 15px 0;
 }
 
+/* ITEM SUMMARY */
+
 .items {
     display: flex;
     flex-direction: column;
@@ -84,8 +114,9 @@ body {
 
 .item {
     display: flex;
-    width: 100%;
+    max-width: 100%;
     padding: 15px;
+    padding-right: 0;
 }
 
 
@@ -105,6 +136,7 @@ body {
     background-color: #F3F4F6;
     padding: 5px 20px;
     border-radius: 10%;
+    border: 1px solid #D2D5DA;
 
     /* width: auto; */
     /* height: 60px; */
@@ -117,6 +149,7 @@ body {
     width: auto;
     height: auto; */
 }
+
 .cart-item-info {
     display: flex;
     flex-direction: column;
@@ -147,3 +180,52 @@ body {
     flex: 2;
     align-self: flex-start;
 }
+
+/* PRICE SUMMARY */
+
+.price-summary-section {
+    padding: 0 15px;
+}
+
+.coupons {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+/* .coupons input {
+    padding: 10px;
+    border-radius: 7px;
+} */
+
+/* .coupons button {
+    border: 1px solid #D2D5DA;
+    border-radius: 7px;
+} */
+
+.pricing {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.price-item {
+    padding: 5px 0;
+}
+
+.subtotal-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tax-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* CONTACT INFO FORM */
