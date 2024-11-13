@@ -13,6 +13,25 @@ body {
             "summary contact"; */
 }
 
+hr {
+    background-color: #D2D5DA;
+    border: none;
+    height: 1px;
+}
+
+input {
+    border: 1px solid #D2D5DA;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+button {
+    border: 1px solid #D2D5DA;
+    background-color: #1D1D1F;
+    color: #FFFFFF;
+    border-radius: 7px;
+}
+
 /* HEADER / TOP NAV */
 
 .top-nav {
@@ -63,7 +82,7 @@ body {
 
 .summary {
     flex: 1;
-    background-color: #D2D5DA;
+    background-color: #E5E7EB;
     padding: 10px;
 
     /* have to give same border radius as container in order to keep padding from 
@@ -112,6 +131,7 @@ body {
     background-color: #F3F4F6;
     padding: 5px 20px;
     border-radius: 10%;
+    border: 1px solid #D2D5DA;
 
     /* width: auto; */
     /* height: 60px; */
@@ -164,13 +184,15 @@ body {
     padding: 10px 0;
 }
 
-.coupons input {
-    /**/
-}
+/* .coupons input {
+    padding: 10px;
+    border-radius: 7px;
+} */
 
-.coupons button {
-    /**/
-}
+/* .coupons button {
+    border: 1px solid #D2D5DA;
+    border-radius: 7px;
+} */
 
 .pricing {
     display: flex;
