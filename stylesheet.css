@@ -98,7 +98,7 @@ button {
     flex: 1;
     background-color: #FFFFFF;
     /* max-width: 100%; */
-    padding: 5%;
+    padding: 10px;
 
     /* have to give same border radius as container in order to keep padding from 
        overlapping */
