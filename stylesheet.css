@@ -158,4 +158,43 @@ body {
 
 /* PRICE SUMMARY */
 
+.coupons {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.coupons input {
+    /**/
+}
+
+.coupons button {
+    /**/
+}
+
+.pricing {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.price-item {
+    padding: 5px 0;
+}
+
+.subtotal-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tax-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-section {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* CONTACT INFO FORM */
