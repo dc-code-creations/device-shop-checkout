@@ -83,6 +83,8 @@ button {
     color: #FFFFFF;
     border-radius: 7px;
     white-space: nowrap;
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 ::placeholder, select {
