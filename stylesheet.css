@@ -270,3 +270,8 @@ button {
     width: 100%;
     margin-left: 10px;
 }
+
+.continue-btn {
+    margin-top: 25px;
+    width: 100%;
+}
