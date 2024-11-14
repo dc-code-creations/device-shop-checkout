@@ -7,10 +7,15 @@
     <!-- viewport (don't think this was an issue, but just in case; would come in handy for media queries) -->
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
     <!-- Stylesheet -->
      <link rel="stylesheet" href="stylesheet.css">
 </head>
-    <body>
+    <body class="inter-reg">
         <div class="container">
             <div class="top-nav">
                 <h1 class="header nav-item">Checkout</h1>
@@ -99,9 +104,9 @@
                 </div> <!-- SUMMARY -->
                 <div class="contact-form">
                     <div class="contact-form-title">Contact Information</div>
-                    <div class="contact-form-contact">
+                    <div class="contact-form-container">
                         <div>
-                            <label for="fnl-name">First & Last name</label>
+                            <label for="fnl-name">First & Last Name</label>
                             <input type="text" name="fnl-name" id="fnl-name" placeholder="Enter first & last name">
                         </div>
                         <div>
@@ -113,6 +118,10 @@
                                 <label for="country">Country</label>
                                 <select name="country-dropdown" id="country">
                                     <option value="Finland">Finland</option>
+                                    <option value="Ireland">Ireland</option>
+                                    <option value="United Kingdom">United Kingdom</option>
+                                    <option value="Japan">Japan</option>
+                                    <option value="USA">USA</option>
                                 </select>
                             </div>
                             <div class="postal-code-section">
