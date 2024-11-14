@@ -56,6 +56,10 @@ input::placeholder {
 
 /* HEADER / TOP NAV */
 
+.header {
+    color: #FFFFFF;
+}
+
 .top-nav {
     /* defining the space the nav itself takes up */
     grid-column: 1 / 7;
@@ -193,11 +197,17 @@ input::placeholder {
 
 .item-color {
     flex: 6;
+    color: #394150;
 }
 
 .item-count {
     flex: 2;
     align-self: flex-start;
+    color: #394150;
+}
+
+.x-icon {
+    color: #394150;
 }
 
 /* PRICE SUMMARY */
