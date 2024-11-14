@@ -118,7 +118,7 @@ input::placeholder {
 .num-items {
     background-color: #1D1D1F;
     color: #F3F4F6;
-    font-size: 12px;
+    text-transform: uppercase;
     display: block;
     padding: 5px 20px;
     margin: 0;
