@@ -223,16 +223,19 @@ input::placeholder {
 .item-info-r1 {
     display: flex;
     justify-content: space-between;
-    flex: 1;
+    font-weight: 700;
+    padding: 5px 0;
 }
 
 .item-info-r2 {
     display: flex;
+    font-weight: 500;
     flex: 2;
 }
 
 .item-info-r3 {
     display: flex;
+    /* font-weight: 500; */
 }
 
 .item-color {
