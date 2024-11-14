@@ -3,6 +3,7 @@
 body {
     margin: 0;
     background-color: #F3F4F6;
+    columns: #1D1D1F;
 }
 
 .container {
@@ -11,6 +12,10 @@ body {
     /* grid-template-areas: 
             "header header"
             "summary contact"; */
+}
+
+.flex-container {
+    display: flex;
 }
 
 hr {
@@ -44,8 +49,9 @@ button {
     white-space: nowrap;
 }
 
-.flex-container {
-    display: flex;
+input::placeholder {
+    color: #394150;
+    /* opacity: 1; */
 }
 
 /* HEADER / TOP NAV */
@@ -229,11 +235,13 @@ button {
 .subtotal-section {
     display: flex;
     justify-content: space-between;
+    color: #394150;
 }
 
 .tax-section {
     display: flex;
     justify-content: space-between;
+    color: #394150;
 }
 
 .total-section {
