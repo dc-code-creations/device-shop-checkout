@@ -116,6 +116,7 @@ button {
 .header {
     color: #FFFFFF;
     margin-right: 10px;
+    font-size: 1.5rem;
 }
 
 .num-items {
