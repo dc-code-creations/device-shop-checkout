@@ -81,9 +81,11 @@ input::placeholder {
 
 .num-items {
     background-color: #1D1D1F;
-    color: #FFFFFF;
+    color: #F3F4F6;
     font-size: 12px;
-    padding: 1px 10px;
+    display: block;
+    padding: 5px 20px;
+    margin: 0;
 
     /* there is a difference between using px and percentages (https://www.reddit.com/r/css/comments/2ngnz7/borderradius_or_px/) */
     border-radius: 54px;
