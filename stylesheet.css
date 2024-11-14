@@ -56,10 +56,6 @@ input::placeholder {
 
 /* HEADER / TOP NAV */
 
-.header {
-    color: #FFFFFF;
-}
-
 .top-nav {
     /* defining the space the nav itself takes up */
     grid-column: 1 / 7;
@@ -75,8 +71,12 @@ input::placeholder {
     align-items: center;
 }
 
-.nav-item {
-    padding: 10px;
+/* .nav-item {
+} */
+
+.header {
+    color: #FFFFFF;
+    margin-right: 10px;
 }
 
 .num-items {
@@ -86,6 +86,7 @@ input::placeholder {
     display: block;
     padding: 5px 20px;
     margin: 0;
+    margin-left: 10px;
 
     /* there is a difference between using px and percentages (https://www.reddit.com/r/css/comments/2ngnz7/borderradius_or_px/) */
     border-radius: 54px;
