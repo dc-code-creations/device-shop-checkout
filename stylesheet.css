@@ -87,6 +87,7 @@ input::placeholder {
     padding: 5px 20px;
     margin: 0;
     margin-left: 10px;
+    white-space: nowrap;
 
     /* there is a difference between using px and percentages (https://www.reddit.com/r/css/comments/2ngnz7/borderradius_or_px/) */
     border-radius: 54px;
