@@ -227,8 +227,9 @@ button {
 .item-info-r1 {
     display: flex;
     justify-content: space-between;
-    font-weight: 700;
-    padding: 5px 0;
+    align-items: start;
+    font-weight: 600;
+    padding: 0 0 10px;
 }
 
 .item-info-r2 {
@@ -293,33 +294,44 @@ button {
     display: flex;
     justify-content: space-between;
     color: #394150;
+    font-weight: 600;
 }
 
 .tax-section {
     display: flex;
     justify-content: space-between;
     color: #394150;
+    font-weight: 600;
 }
 
 .total-section {
     display: flex;
     justify-content: space-between;
+    font-weight: 600;
 }
 
 /* CONTACT INFO FORM */
 
 .contact-form-title {
     padding: 15px 20px 10px;
+    font-weight: 600;
 }
 
 .contact-form-contact {
     padding: 0 20px;
 }
 
+:active, :focus {
+    /* border: none; */
+    outline: none;
+}
+
 /* labels and inputs are inline elements, so they are not affected by top and bottom padding; must make them block level for the top/bottom padding to work */
 .contact-form-contact label {
+    color: #394150;
     display: block;
     padding: 25px 0 10px;
+    font-weight: 500;
 }
 
 .country-zip-section {
