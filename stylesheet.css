@@ -230,3 +230,17 @@ button {
 }
 
 /* CONTACT INFO FORM */
+
+.contact-form-title {
+    padding: 20px 20px 10px;
+}
+
+.contact-form-contact {
+    padding: 0 20px;
+}
+
+/* labels and inputs are inline elements, so they are not affected by top and bottom padding; must make them block level for the top/bottom padding to work */
+.contact-form-contact label {
+    display: block;
+    padding: 25px 0 10px;
+}
