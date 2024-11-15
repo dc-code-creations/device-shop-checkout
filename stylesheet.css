@@ -357,3 +357,39 @@ button {
     margin-top: 30px;
     width: 100%;
 }
+
+/* tablet size */
+/* @media (max-width: 1199px ) {
+} */
+
+/* phone size */
+@media (max-width: 767px) {
+    /* need to move the background image over to the left so we can see more color (for both the desktop and mobile versions) */
+    .top-nav {
+        background: url(images/background-image.png) no-repeat;
+    }
+
+    .cart {
+        flex-direction: column;
+    }
+
+    .summary {
+        border-radius: 15px 15px 0 0;
+    }
+
+    .pricing {
+        padding-bottom: 20px;
+    }
+
+    .contact-form {
+        border-radius: 0 0 15px 15px;
+    }
+
+    .continue-btn {
+        margin-bottom: 30px;
+    }
+}
+
+/* small phone size */
+/* @media (max-width: 479px) {
+} */
