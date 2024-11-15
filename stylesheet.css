@@ -102,9 +102,16 @@ button {
     padding: 20px 205px 68px;
     min-width: 150px;
     /* min-height: 90px; */
-    background: url("images/background-image@2x.png") no-repeat;
 
-    /* positioning items inside the nave */
+    /* need to move the background image over to the left so we can see 
+       more color (for both the desktop and mobile versions)
+           - source: https://developer.mozilla.org/en-US/docs/Web/CSS/background
+           - "The <bg-size> value may only be included immediately after 
+              <position>, separated with the '/' character, like this: 
+              center/80%" */
+    background: url("images/background-image@2x.png") center / cover no-repeat;
+    /* background-position: right 60%; */
+    /* positioning items inside the nav */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -364,9 +371,14 @@ button {
 
 /* phone size */
 @media (max-width: 767px) {
-    /* need to move the background image over to the left so we can see more color (for both the desktop and mobile versions) */
+    /* need to move the background image over to the left so we can see 
+       more color (for both the desktop and mobile versions)
+           - source: https://developer.mozilla.org/en-US/docs/Web/CSS/background
+           - "The <bg-size> value may only be included immediately after 
+              <position>, separated with the '/' character, like this: 
+              center/80%" */
     .top-nav {
-        background: url(images/background-image.png) no-repeat;
+        background: url(images/background-image.png) center / cover no-repeat;
     }
 
     .cart {
